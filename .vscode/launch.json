@@ -1,0 +1,30 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS\\Protheus\\Protheus\\bin\\smartclient",
+			"isMultiSession": true,
+			"enableTableSync": false
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "u_videoaula",
+			"description": ""
+		},
+		{
+			"args": [
+				"()"
+			],
+			"label": "u_videoaula",
+			"description": "()"
+		}
+	],
+	"lastProgramExecuted": "u_videoaula"
+}
