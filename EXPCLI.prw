@@ -3,6 +3,7 @@
 #include 'TopConn.ch'
 
 /*/{Protheus.doc}
+    Fonte com o objetivo de exportar um simples relatorio de cliente para o excel.
     @author Matheus Pedro
     @since 12/02/2021
     @version undefined
@@ -42,7 +43,8 @@ TCQUERY cQuery NEW ALIAS (cAlias)
 (cAlias)->(DbGoTop())
 
 Do while !(cAlias)->(Eof())
-    aAdd(aDados, {(cAlias)->A1_LOJA,;
+    aAdd(aDados, {(cAlias)->A1_COD,;
+        (cAlias)->A1_LOJA,;
         (cAlias)->A1_NOME,;
         (cAlias)->A1_END,;
         (cAlias)->A1_MUN,;
